@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#E91C1A"
+              android:orientation="vertical">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="NeoSTORE"
+              android:layout_marginTop="10dp"
+              android:gravity="center"
+              android:textSize="40dp"
+              android:textColor="#FFF"
+              android:textStyle="bold"
+              android:id="@+id/neostore"/>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginRight="40dp"
+                  android:layout_marginLeft="40dp"
+                  android:layout_marginTop="10dp"
+                  android:orientation="vertical">
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint=" First Name"
+                  android:padding="10dp"
+                  android:textStyle="bold"
+                  android:textSize="20dp"
+                  android:textColorHint="#FFF"
+                  android:layout_marginTop="5dp"
+                  android:background="@drawable/secondpage_stroke"
+                  android:drawableLeft="@drawable/ic_person_black_24dp"
+                  android:id="@+id/firstname"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint=" Last Name"
+                  android:padding="10dp"
+                  android:textStyle="bold"
+                  android:textSize="20dp"
+                  android:textColorHint="#FFF"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/secondpage_stroke"
+                  android:drawableLeft="@drawable/ic_person_black_24dp"
+                  android:id="@+id/lastname"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint=" Email"
+                  android:padding="10dp"
+                  android:textStyle="bold"
+                  android:textSize="20dp"
+                  android:textColorHint="#FFF"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/secondpage_stroke"
+                  android:drawableLeft="@drawable/ic_email_black_24dp"
+                  android:id="@+id/email"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint=" Password"
+                  android:padding="10dp"
+                  android:textStyle="bold"
+                  android:textSize="20dp"
+                  android:textColorHint="#FFF"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/secondpage_stroke"
+                  android:drawableLeft="@drawable/ic_lock_black_24dp"
+                  android:id="@+id/password"/>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint=" Confirm Password"
+                  android:padding="10dp"
+                  android:textStyle="bold"
+                  android:textSize="20dp"
+                  android:textColorHint="#FFF"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/secondpage_stroke"
+                  android:drawableLeft="@drawable/ic_lock_black_24dp"
+                  android:id="@+id/confirmpassword"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:weightSum="1"
+                      android:layout_marginTop="10dp"
+                      android:orientation="horizontal">
+
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Gender"
+                      android:textColor="#FFF"
+                      android:padding="10dp"
+                      android:textStyle="bold"
+                      android:textSize="20dp"
+                      android:id="@+id/gender"/>
+
+            <RadioGroup android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+
+                <RadioButton android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:text="Male"
+                             android:textColor="#FFF"
+                             android:id="@+id/male"/>
+
+                <RadioButton android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="2"
+                             android:text="Female"
+                             android:textColor="#FFF"
+                             android:id="@+id/female"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <EditText android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:hint=" Phone Number"
+                  android:padding="10dp"
+                  android:textStyle="bold"
+                  android:textSize="20dp"
+                  android:textColorHint="#FFF"
+                  android:layout_marginTop="10dp"
+                  android:background="@drawable/secondpage_stroke"
+                  android:drawableLeft="@drawable/ic_call_black_24dp"
+                  android:id="@+id/phonenumber"/>
+
+        <CheckBox        android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:text="I Agree To Terms And Conditions"
+                         android:padding="10dp"
+                         android:textStyle="bold"
+                         android:textSize="18dp"
+                         android:textColor="#FFF"
+                         android:layout_marginTop="10dp"
+                         android:id="@+id/agree"/>
+
+        <Button android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTER"
+                android:textColor="#E91C1A"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:background="@drawable/button_stroke"
+                android:layout_marginTop="10dp"
+                android:id="@+id/register"/>
+
+    </LinearLayout>
+</LinearLayout>
